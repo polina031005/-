@@ -16,7 +16,7 @@ while N > 0:
             N = N - 1 - y // x 
             time += y
         else:
-            rest = y % x # остаток веремени по работе принтера, НАДО ДОВЫЧЕСТЬ!! И КОЛИЧЕСТВО
+            rest = y % x 
             while rest > 0:
                 if N > 0 and (x * N) + rest > y - rest:
                     time += y
